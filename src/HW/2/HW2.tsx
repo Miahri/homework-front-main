@@ -48,6 +48,7 @@ export const HW2 = () => {
 
   const filterUsers = () => {
     const filteredUsers = currentUsers.myFriends.filter((u: UserType) => u.address.city === 'Los Angeles')
+    debugger
     //'НУЖНО ПРОФИЛЬТРОВАТЬ ДРУЗЕЙ. ОСТАВЛЯЕМ ТОЛЬКО ТЕХ, КОТОРЫЕ ЖИВУТ В ГОРОДЕ LOS ANGELES';
     setCurrentUsers({ myFriends: filteredUsers });
   };
